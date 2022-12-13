@@ -1,3 +1,4 @@
+#հաշվել թվի 1 արժեքով բիթերի քանակը 
 def count_of_bits(num):
     """Checks the count of '1'"""
     count = 0
