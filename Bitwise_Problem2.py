@@ -1,3 +1,4 @@
+#ստուգել թվի 1 արժեքով բիթերի քանակը կենտ է, թե զույգ
 def count_of_bits(num):
     """Converts the decimal number to binary and check the count of '1'"""
     bin_num = bin(num)
