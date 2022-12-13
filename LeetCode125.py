@@ -1,3 +1,6 @@
+"""A phrase is a palindrome if, after converting all uppercase letters into lowercase letters 
+and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers."""
+"""Time comp O(n)"""
 def is_symbols(sentence):
     """Removes unnecessary elements"""
     mstr = sentence
