@@ -1,3 +1,4 @@
+#ստուգել թվի 1 արժեքով բիթերի քանակը կենտ է, թե զույգ
 def count_of_bits(num):
     """checks the count of '1'"""
     count = 0
