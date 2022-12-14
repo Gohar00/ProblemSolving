@@ -1,4 +1,5 @@
-#հաշվել թվի 1 արժեքով բիթերի քանակը 
+#հաշվել թվի 1 արժեքով բիթերի քանակը
+"""time comp. O(logn)"""
 def count_of_bits(num):
     """Checks the count of '1'"""
     count = 0
