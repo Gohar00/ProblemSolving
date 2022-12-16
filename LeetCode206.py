@@ -11,9 +11,10 @@ class ListNode:
 class Solution:
     def reverseList(self, head: ListNode):
         prev = None
-        while head:
-            nxt = head.next
-            head.next = prev
-            prev = head
-            head = nxt
+        curr = head
+        while curr:
+            nxt = curr.next
+            curr.next = prev
+            prev = curr
+            curr = nxt
         return prev
