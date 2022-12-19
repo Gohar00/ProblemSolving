@@ -1,7 +1,7 @@
 """Given a binary tree, determine if it is
 height-balanced.
 """
-"""Time Comp O(N)"""
+"""Time Comp nlog(n)"""
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
