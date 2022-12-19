@@ -16,9 +16,8 @@ def maxDepth(root: [TreeNode]):
         return 0
 
     left_depth = maxDepth(root.left)
-    print(left_depth)
     right_depth = maxDepth(root.right)
-    # print("yes aj", right_depth)
+    
 
     if left_depth > right_depth:
         return left_depth + 1
